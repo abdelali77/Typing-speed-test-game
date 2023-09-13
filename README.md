@@ -1,7 +1,7 @@
 # Typing-speed-test-game
 <kbd> <img src='https://user-images.githubusercontent.com/78610663/236957704-2f8bbefb-5f99-4987-aaf3-fac0eb6763b3.png'/> </kbd>
 
-A typing speed test game using JavaScript.
+A typing speed test game using TypeScript.
 ## The App Logic
   * `Add Levels`
   * `Show Level And Seconds`
