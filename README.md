@@ -1,5 +1,5 @@
 # Typing-speed-test-game
-<img src='https://user-images.githubusercontent.com/78610663/236957704-2f8bbefb-5f99-4987-aaf3-fac0eb6763b3.png' border-radius="10">
+<kbd> <img src='https://user-images.githubusercontent.com/78610663/236957704-2f8bbefb-5f99-4987-aaf3-fac0eb6763b3.png'/> </kbd>
 
 A typing speed test game using JavaScript.
 ## The App Logic
