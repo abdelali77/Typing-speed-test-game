@@ -87,12 +87,12 @@ if (startButton) {
         input.focus();
       }
       // Generate word function
-      genWords();
+      generateWords();
     }
   };
 }
 
-function genWords() {
+function generateWords() {
   // Get Random Word From Array
   let randomWord: string | undefined =
     words[Math.floor(Math.random() * words.length)];
@@ -118,11 +118,11 @@ function genWords() {
       }
     }
     // Call start play func
-    startPlay();
+    play();
   }
 }
 
-function startPlay() {
+function play() {
   if (timeLeftSpan) {
     timeLeftSpan.innerHTML = defaultLevelSeconds.toString();
   }
@@ -146,7 +146,7 @@ function startPlay() {
           }
           if (words.length > 0) {
             // Call Generate Word Function
-            genWords();
+            generateWords();
           } else if (finishMessage) {
             let span: HTMLSpanElement = document.createElement("span");
             span.className = "good";
