@@ -13,4 +13,9 @@ A typing speed test game using TypeScript.
   * `Start The Time And count Score`
   * `Add The Error And Success Messages`
 
+- To compile the TypeScript file
+```bash
+tsc script.ts
+```
+
 [![DeepScan grade](https://deepscan.io/api/teams/19512/projects/22934/branches/684586/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=19512&pid=22934&bid=684586)
